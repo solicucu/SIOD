@@ -23,19 +23,19 @@
 
 ```
 1. pip install -r requirements.txt 
-2. install pytorch=1.7.0(higher version has some problem in following installation of dcnv2) 
+2. install pytorch=1.7.0(higher version has some problems in following installation of dcnv2) 
 3. install dcnv2
-	cd src/lib/models/networks/DCNv2
-	sh make.sh 
+   cd src/lib/models/networks/DCNv2
+   sh make.sh 
 4. install cocoapi
-	cd src/lib/datasets/dataset/cocoapi/
-	sh install.sh 
+   cd src/lib/datasets/dataset/cocoapi/
+   sh install.sh 
 5. install nms
-	cd src/lib/external
-	make 
+   cd src/lib/external
+   make 
 6. create soft link for the data
-	vim link.sh
-	sh link.sh 
+   vim link.sh
+   sh link.sh 
 ```
 
 ## Training 
